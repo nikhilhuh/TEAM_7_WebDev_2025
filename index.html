@@ -8,50 +8,77 @@
         , initial-scale=1.0"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <link rel="shortcut icon" href="images/model.png" type="image/x-icon" />
     <title>Web Tribute to India</title>
   </head>
   <body>
-        <!-- hero section -->
+    <!-- hero section -->
     <section class="hero">
-        <!-- image curousel -->
-      <div class="slider">
-        <div class="item">
+      <!-- image curousel -->
+      <div class="slider" style="--quantity: 9">
+        <div class="item" style="--position: 1">
           <img src="images/slider_1.png" alt="" />
         </div>
-        <div class="item">
+        <div class="item" style="--position: 2">
           <img src="images/slider_2.png" alt="" />
         </div>
-        <div class="item">
+        <div class="item" style="--position: 3">
           <img src="images/slider_3.png" alt="" />
         </div>
-        <div class="item">
+        <div class="item" style="--position: 4">
           <img src="images/slider_4.png" alt="" />
         </div>
-        <div class="item">
+        <div class="item" style="--position: 5">
           <img src="images/slider_5.png" alt="" />
         </div>
-        <div class="item">
+        <div class="item" style="--position: 6">
           <img src="images/slider_6.png" alt="" />
         </div>
-        <div class="item">
+        <div class="item" style="--position: 7">
           <img src="images/slider_7.png" alt="" />
         </div>
-        <div class="item">
+        <div class="item" style="--position: 8">
           <img src="images/slider_8.png" alt="" />
         </div>
-        <div class="item">
+        <div class="item" style="--position: 9">
           <img src="images/slider_9.png" alt="" />
         </div>
       </div>
       <!-- content -->
-       <div class="content">
-        <h1 data-content="INDIA">INDIA</h1>
-        <div class="scroll-down">Scroll Down to see India's digital journey</div>
+      <div class="content">
+        <h1 data-content="INDIA" data-aos="zoom-in">INDIA</h1>
+        <div class="subtext" data-aos="zoom-in-up" data-aos-delay="200">
+          <h2>One Nation, Infinite Possibilities</h2>
+          <p>
+            From Independence to Innovation — India's Journey in the Digital
+            Era.
+          </p>
+        </div>
+        <div class="scroll-down">
+          ↓ Scroll down to see India's digital journey
+        </div>
         <div class="model"></div>
-       </div>
+      </div>
     </section>
+
+    <!-- gallery -->
+    <section class="galery">
+      <h2 data-aos="zoom-in">Digital Freedom Gallery</h2>
+      <div class="gallery-grid">
+        
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <p>
+        © <span id="curr-year"></span> Digital Freedom Gallery • Code a Vision •
+        Design the Nation
+      </p>
+      <p>Design with ❤️ for India</p>
+      <p>Proud to be Indian , Bharat Mata ki Jay, Vande Matram</p>
+    </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
   </body>
