@@ -1,5 +1,33 @@
+@import url("https://fonts.cdnfonts.com/css/ica-rubrik-black");
+@import url("https://fonts.cdnfonts.com/css/poppins");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --chakra-blue: #1a4d8bed;
+  --saffron: rgba(255, 153, 51, 0.8);
+  --beige: #f4e3c1;
+  --soft-green: rgba(30, 147, 71, 0.8);
+  --semi-transparent: #d58c3330;
+  --saffron-tint: rgba(255, 153, 51, 0.35);
+  --white-frost: rgba(255, 255, 255, 0.25);
+  --green-tint: rgba(19, 136, 8, 0.35);
+}
+
+body {
+  background-color: var(--chakra-blue);
+  background-image: repeating-linear-gradient(
+      to right,
+      transparent 0 100px,
+      var(--semi-transparent) 100px 101px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0 100px,
+      var(--semi-transparent) 100px 101px
+    );
 }
